@@ -1,14 +1,13 @@
-import Hero from '../components/Hero';
 import Head from 'next/head';
 
-export default function Home() {
+export default function Foundations() {
   return (
     <>
       <Head>
-        <title>Concrete Contractor in Austin & Round Rock, TX | ATX Concrete Contractor</title>
+        <title>Concrete Foundations in Austin & Round Rock, TX | ATX Concrete Contractor</title>
         <meta
           name='description'
-          content='Licensed & insured concrete contractor in Round Rock, TX. Driveways, patios, foundations, stamped concrete & more. Free estimates. Serving Austin, TX area.'
+          content='Expert concrete foundation installation in Austin & Round Rock, TX. Licensed, insured, free estimates. Call (512) 991-9224.'
         />
         {/* LocalBusiness JSON-LD Schema */}
         <script
@@ -46,18 +45,18 @@ export default function Home() {
               'mainEntity': [
                 {
                   '@type': 'Question',
-                  'name': 'What areas do you serve?',
+                  'name': 'What types of foundations do you install?',
                   'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'We serve Round Rock, Austin, and surrounding areas in Central Texas.'
+                    'text': 'We install slab, pier and beam, and custom concrete foundations for homes and businesses.'
                   }
                 },
                 {
                   '@type': 'Question',
-                  'name': 'Are you licensed and insured?',
+                  'name': 'Do you offer foundation repair?',
                   'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'Yes, ATX Concrete Contractor is fully licensed and insured for your peace of mind.'
+                    'text': 'Yes, we provide expert foundation repair and reinforcement services.'
                   }
                 }
               ]
@@ -65,37 +64,42 @@ export default function Home() {
           }}
         />
       </Head>
-      <Hero />
       <section style={{ maxWidth: 800, margin: '2rem auto', padding: '0 1rem' }}>
-        <h2>Concrete Contractor in Austin & Round Rock, TX</h2>
+        <h1>Concrete Foundations in Austin & Round Rock, TX</h1>
         <p>
-          ATX Concrete Contractor is your trusted, licensed, and insured concrete expert serving Round Rock, Austin, and surrounding areas. We specialize in driveways, patios, foundations, stamped concrete, sidewalks, and more for both residential and commercial clients.
+          ATX Concrete Contractor provides expert concrete foundation installation and repair for residential and commercial projects in Austin, Round Rock, and surrounding areas.
         </p>
+        <h2>Benefits of a Quality Foundation</h2>
         <ul>
-          <li>Free estimates & local expertise</li>
-          <li>High-quality materials & craftsmanship</li>
-          <li>Serving Austin, Round Rock, Cedar Park, Pflugerville, Georgetown, and more</li>
+          <li>Stable, long-lasting support for your structure</li>
+          <li>Engineered for Texas soil and climate</li>
+          <li>Prevents settling and structural issues</li>
+          <li>Licensed, insured, and code-compliant</li>
         </ul>
-        <h3>Our Services</h3>
-        <ul>
-          <li><a href='/services/driveways'>Concrete Driveways</a></li>
-          <li><a href='/services/patios'>Concrete Patios</a></li>
-          <li><a href='/services/foundations'>Foundations</a></li>
-          <li><a href='/services/stamped-concrete'>Stamped Concrete</a></li>
-          <li><a href='/services/sidewalks'>Sidewalks</a></li>
-          <li><a href='/services'>All Services</a></li>
-        </ul>
-        <h3>Why Choose Us?</h3>
-        <ul>
-          <li>Decades of experience</li>
-          <li>Licensed & insured</li>
-          <li>Local, friendly, and professional</li>
-          <li>Customer satisfaction guaranteed</li>
-        </ul>
+        <h2>Our Foundation Process</h2>
+        <ol>
+          <li>Site evaluation and soil analysis</li>
+          <li>Custom engineering and design</li>
+          <li>Excavation, forming, and reinforcement</li>
+          <li>Concrete pour and curing</li>
+          <li>Final inspection and cleanup</li>
+        </ol>
+        <h2>Frequently Asked Questions</h2>
+        <h3>What types of foundations do you install?</h3>
+        <p>
+          We install slab, pier and beam, and custom concrete foundations for homes and businesses.
+        </p>
+        <h3>Do you offer foundation repair?</h3>
+        <p>
+          Yes, we provide expert foundation repair and reinforcement services.
+        </p>
         <p>
           <a href='/contact' style={{ color: '#f7b32b', fontWeight: 'bold' }}>
-            Contact us today for your free estimate!
+            Need a new foundation? Contact us today!
           </a>
+        </p>
+        <p>
+          <a href='/services'>← Back to All Services</a>
         </p>
       </section>
     </>

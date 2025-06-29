@@ -1,14 +1,13 @@
-import Hero from '../components/Hero';
 import Head from 'next/head';
 
-export default function Home() {
+export default function StampedConcrete() {
   return (
     <>
       <Head>
-        <title>Concrete Contractor in Austin & Round Rock, TX | ATX Concrete Contractor</title>
+        <title>Stamped Concrete in Austin & Round Rock, TX | ATX Concrete Contractor</title>
         <meta
           name='description'
-          content='Licensed & insured concrete contractor in Round Rock, TX. Driveways, patios, foundations, stamped concrete & more. Free estimates. Serving Austin, TX area.'
+          content='Decorative stamped concrete patios, driveways, and walkways in Austin & Round Rock, TX. Licensed, insured, free estimates. Call (512) 991-9224.'
         />
         {/* LocalBusiness JSON-LD Schema */}
         <script
@@ -46,18 +45,18 @@ export default function Home() {
               'mainEntity': [
                 {
                   '@type': 'Question',
-                  'name': 'What areas do you serve?',
+                  'name': 'What is stamped concrete?',
                   'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'We serve Round Rock, Austin, and surrounding areas in Central Texas.'
+                    'text': 'Stamped concrete is concrete that is patterned and/or textured to resemble brick, stone, tile, or other materials.'
                   }
                 },
                 {
                   '@type': 'Question',
-                  'name': 'Are you licensed and insured?',
+                  'name': 'Where can stamped concrete be used?',
                   'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'Yes, ATX Concrete Contractor is fully licensed and insured for your peace of mind.'
+                    'text': 'Stamped concrete is ideal for patios, driveways, walkways, and pool decks.'
                   }
                 }
               ]
@@ -65,37 +64,41 @@ export default function Home() {
           }}
         />
       </Head>
-      <Hero />
       <section style={{ maxWidth: 800, margin: '2rem auto', padding: '0 1rem' }}>
-        <h2>Concrete Contractor in Austin & Round Rock, TX</h2>
+        <h1>Stamped Concrete in Austin & Round Rock, TX</h1>
         <p>
-          ATX Concrete Contractor is your trusted, licensed, and insured concrete expert serving Round Rock, Austin, and surrounding areas. We specialize in driveways, patios, foundations, stamped concrete, sidewalks, and more for both residential and commercial clients.
+          Add beauty and value to your property with decorative stamped concrete from ATX Concrete Contractor. We offer a variety of patterns and colors for patios, driveways, walkways, and more.
         </p>
+        <h2>Benefits of Stamped Concrete</h2>
         <ul>
-          <li>Free estimates & local expertise</li>
-          <li>High-quality materials & craftsmanship</li>
-          <li>Serving Austin, Round Rock, Cedar Park, Pflugerville, Georgetown, and more</li>
+          <li>Custom patterns and colors</li>
+          <li>Durable and weather-resistant</li>
+          <li>Affordable alternative to natural stone or pavers</li>
+          <li>Low maintenance</li>
         </ul>
-        <h3>Our Services</h3>
-        <ul>
-          <li><a href='/services/driveways'>Concrete Driveways</a></li>
-          <li><a href='/services/patios'>Concrete Patios</a></li>
-          <li><a href='/services/foundations'>Foundations</a></li>
-          <li><a href='/services/stamped-concrete'>Stamped Concrete</a></li>
-          <li><a href='/services/sidewalks'>Sidewalks</a></li>
-          <li><a href='/services'>All Services</a></li>
-        </ul>
-        <h3>Why Choose Us?</h3>
-        <ul>
-          <li>Decades of experience</li>
-          <li>Licensed & insured</li>
-          <li>Local, friendly, and professional</li>
-          <li>Customer satisfaction guaranteed</li>
-        </ul>
+        <h2>Our Stamped Concrete Process</h2>
+        <ol>
+          <li>Design consultation and pattern selection</li>
+          <li>Site prep and forming</li>
+          <li>Concrete pour, coloring, and stamping</li>
+          <li>Sealing and finishing</li>
+        </ol>
+        <h2>Frequently Asked Questions</h2>
+        <h3>What is stamped concrete?</h3>
+        <p>
+          Stamped concrete is concrete that is patterned and/or textured to resemble brick, stone, tile, or other materials.
+        </p>
+        <h3>Where can stamped concrete be used?</h3>
+        <p>
+          Stamped concrete is ideal for patios, driveways, walkways, and pool decks.
+        </p>
         <p>
           <a href='/contact' style={{ color: '#f7b32b', fontWeight: 'bold' }}>
-            Contact us today for your free estimate!
+            Interested in stamped concrete? Contact us today!
           </a>
+        </p>
+        <p>
+          <a href='/services'>← Back to All Services</a>
         </p>
       </section>
     </>

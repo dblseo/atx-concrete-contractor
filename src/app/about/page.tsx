@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 export default function About() {
   return (
@@ -6,37 +6,37 @@ export default function About() {
       <Head>
         <title>About Us | ATX Concrete Contractor</title>
         <meta
-          name="description"
-          content="Learn about ATX Concrete Contractor, your trusted, licensed, and insured concrete experts serving Round Rock, Austin, and Central Texas."
+          name='description'
+          content='Learn about ATX Concrete Contractor, your trusted, licensed, and insured concrete experts serving Round Rock, Austin, and Central Texas.'
         />
         {/* LocalBusiness JSON-LD Schema */}
         <script
-          type="application/ld+json"
+          type='application/ld+json'
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "ATX Concrete Contractor",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "1000 Heritage Center Circle",
-                "addressLocality": "Round Rock",
-                "addressRegion": "TX",
-                "postalCode": "78664"
+              '@context': 'https://schema.org',
+              '@type': 'LocalBusiness',
+              'name': 'ATX Concrete Contractor',
+              'address': {
+                '@type': 'PostalAddress',
+                'streetAddress': '1000 Heritage Center Circle',
+                'addressLocality': 'Round Rock',
+                'addressRegion': 'TX',
+                'postalCode': '78664'
               },
-              "telephone": "(512) 991-9224",
-              "areaServed": ["Austin, TX", "Round Rock, TX"],
-              "url": "https://atxconcretecontractor.com",
-              "sameAs": [
-                "https://facebook.com/",
-                "https://instagram.com/",
-                "https://linkedin.com/"
+              'telephone': '(512) 991-9224',
+              'areaServed': ['Austin, TX', 'Round Rock, TX'],
+              'url': 'https://atxconcretecontractor.com',
+              'sameAs': [
+                'https://facebook.com/',
+                'https://instagram.com/',
+                'https://linkedin.com/'
               ]
             })
           }}
         />
       </Head>
-      <section style={{ maxWidth: 800, margin: "2rem auto", padding: "0 1rem" }}>
+      <section style={{ maxWidth: 800, margin: '2rem auto', padding: '0 1rem' }}>
         <h1>About ATX Concrete Contractor</h1>
         <p>
           ATX Concrete Contractor is a locally owned and operated business based in Round Rock, TX, proudly serving the greater Austin area. With decades of experience, our team is dedicated to delivering top-quality concrete solutions for residential and commercial clients.
@@ -58,7 +58,7 @@ export default function About() {
           <li>Responsive communication and timely project completion</li>
         </ul>
         <p>
-          <a href="/contact" style={{ color: "#f7b32b", fontWeight: "bold" }}>
+          <a href='/contact' style={{ color: '#f7b32b', fontWeight: 'bold' }}>
             Contact us today to learn more or request your free estimate!
           </a>
         </p>
